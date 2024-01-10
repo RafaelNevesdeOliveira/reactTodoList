@@ -1,0 +1,29 @@
+.wrapper{
+  max-width: 46rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.taskInfoText{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  gap: 0.5rem;
+  margin-top: calc(0px - 2.3rem - 6px);
+}
+
+.taskList{
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 87.5%;
+  }
+}

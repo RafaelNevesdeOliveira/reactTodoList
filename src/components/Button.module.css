@@ -1,0 +1,22 @@
+.button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+  gap: 0.5rem;
+  margin-top: 1rem;
+  border-radius: 8px;
+  border: 0;
+  background: var(--Blue-Dark, #1E6F9F);
+  padding: 1rem;
+
+  color: var(--white);
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+.button:hover{
+  background: var(--blue);
+}
